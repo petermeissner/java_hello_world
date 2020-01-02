@@ -1,0 +1,18 @@
+Package: javahelloworld
+Type: Package
+Title: Minimal and Toy Example of some Java Code Packaged up for R 
+Version: 0.0.1
+Date: 2020-01-02
+Authors@R: c(
+    person("Peter", "Meissner", role = c("aut", "cre"), email = "retep.meissner@gmail.com")
+  )
+SystemRequirements: Java
+Description: A Package packaging up some Java code and allowing it to be called from R.
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+Suggests:
+    covr
+Depends:
+    R (>= 3.2.0),
+    rJava
+RoxygenNote: 6.1.1
