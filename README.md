@@ -28,7 +28,7 @@ status](https://ci.appveyor.com/api/projects/status/github/petermeissner/javahel
 
 **Version**
 
-0.0.1 ( 2020-01-02 23:42:55 )
+0.0.1 ( 2020-01-03 22:07:16 )
 
 **Description**
 
@@ -78,11 +78,41 @@ install.packages("javahelloworld")
 
 <!-- ``` -->
 
-**Usage**
+# Usage
 
-*starting up …*
+*starting up*
 
-    library("javahelloworld")
+``` r
+library(javahelloworld)
+```
+
+    ## Loading required package: rJava
+
+*calling Java?*
+
+``` r
+test_method_call
+```
+
+    ## function(){
+    ##     tmp <- rJava::.jnew("javahelloworld.App")
+    ##     tmp$test_method()
+    ##   }
+    ## <bytecode: 0x00000000155cfdd0>
+    ## <environment: namespace:javahelloworld>
+
+*let it run*
+
+``` r
+test_method_call
+```
+
+    ## function(){
+    ##     tmp <- rJava::.jnew("javahelloworld.App")
+    ##     tmp$test_method()
+    ##   }
+    ## <bytecode: 0x00000000155cfdd0>
+    ## <environment: namespace:javahelloworld>
 
 # How To Build an R/Java Package
 

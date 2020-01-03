@@ -12,6 +12,6 @@
 #'
 test_method_call <-
   function(){
-    dings <- rJava::.jnew("javahelloworld.App")
-    dings$test_method()
+    tmp <- rJava::.jnew("javahelloworld.App")
+    tmp$test_method()
   }

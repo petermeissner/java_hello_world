@@ -168,14 +168,27 @@ cat("\n```\n")
 
 
 
-**Usage**
+# Usage
 
-*starting up ...*
-```{r, results='asis', echo=FALSE}
-cat("```\n")
-cat("library(\"",package_name,"\")", sep = "")
-cat("\n```\n")
+
+*starting up*
+
+```{r package load}
+library(javahelloworld)
 ```
+
+*calling Java?*
+
+```{r test method source code}
+test_method_call
+```
+
+*let it run*
+```{r test method run}
+test_method_call
+```
+
+
 
 
 # How To Build an R/Java Package
