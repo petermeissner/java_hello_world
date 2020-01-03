@@ -14,11 +14,9 @@ cache:
   - C:\RLibrary
 
 
-#platform: x64
 
 environment:
   NOT_CRAN: true
- # R_ARCH: x64
   R_CHECK_ARGS: '--no-manual --as-cran --no-multiarch'
 
   matrix:
