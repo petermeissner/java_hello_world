@@ -6,6 +6,7 @@ Date: 2020-01-02
 Authors@R: c(
     person("Peter", "Meissner", role = c("aut", "cre"), email = "retep.meissner@gmail.com")
   )
+Maintainer: Peter Meissner <retep.meissner@gmail.com>
 SystemRequirements: Java
 Description: A Package packaging up some Java code and allowing it to be called from R.
 License: Apache License (>= 2.0)
